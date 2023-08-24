@@ -63,7 +63,7 @@ $(document).ready(function(){
             'border': '5px dashed yellow'
         })
         $('.third').css({
-            'background-color': '#A9c3B6',
+            'background-color': '#76daa8',
             'border': '4px solid magenta'
         })
     })
