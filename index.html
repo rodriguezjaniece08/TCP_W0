@@ -16,9 +16,9 @@
     <!-- Box Section -->
     <section id="color-boxes">
         <div id="boxes">
-            <div class="box first show-all hide-all"></div>
-            <div class="box sec show-all hide-all"></div>
-            <div class="box third show-all hide-all"></div>
+            <div class="box first show-all hide-all" data-box-number="1"></div>
+            <div class="box sec show-all hide-all" data-box-number="2"></div>
+            <div class="box third show-all hide-all" data-box-number="3"></div>
         </div>
     </section>
 
@@ -26,10 +26,10 @@
     <section>
         <h4>Change Buttons</h4>
         <div class="d-flex justify-content-center gap-4 p-3">
-            <button class="btn btn-primary btn-lg change-button" type="button">Change Box 1</button>
-            <button class="btn btn-primary btn-lg change-button" type="button">Change Box 2</button>
-            <button class="btn btn-primary btn-lg change-button" type="button">Change Box 3</button>
-            <button class="btn btn-warning btn-lg" type="button">Change All</button>
+            <button class="btn btn-primary btn-lg change-button" data-box-number="1" type="button">Change Box 1</button>
+            <button class="btn btn-primary btn-lg change-button" data-box-number="2" type="button">Change Box 2</button>
+            <button class="btn btn-primary btn-lg change-button" data-box-number="3" type="button">Change Box 3</button>
+            <button id="change" class="btn btn-warning btn-lg" type="button">Change All</button>
         </div>
     </section>
 
