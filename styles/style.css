@@ -75,3 +75,62 @@ h1, h4 {
     transform: scale(0.98);
     box-shadow: 5px 2px 22px 1px rgba(0, 0, 0, 0.418);
 }
+
+
+/* Media Query */
+
+/* Media Query for Small Screens (up to 768px) */
+@media (max-width: 768px) {
+    body {
+        padding: 3rem;
+    }
+
+    #boxes {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+/* Media Query for Small Screens (up to 768px) */
+@media (max-width: 768px) {
+    body {
+        padding: 3rem;
+    }
+
+    #boxes {
+        flex-direction: row; /* Keep the boxes inline */
+        justify-content: center; /* Center the boxes horizontally */
+        gap: 1.5rem;
+    }
+
+    .box {
+        width: 9rem; /* Keep the width consistent */
+        height: 9.5rem; /* Keep the height consistent */
+        margin: 0 0.75rem; /* Adjust horizontal margin for spacing */
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+
+
+/* Media Query for Large Screens (993px and above) */
+@media (min-width: 993px) {
+    body {
+        padding: 5rem 7rem;
+    }
+
+    #color-boxes {
+        height: 15rem;
+    }
+}
