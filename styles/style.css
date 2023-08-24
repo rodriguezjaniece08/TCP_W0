@@ -102,25 +102,27 @@ h1, h4 {
 /* Media Query for Small Screens (up to 768px) */
 @media (max-width: 768px) {
     body {
-        padding: 3rem;
+        padding: 2rem;
     }
 
     #boxes {
-        flex-direction: row; /* Keep the boxes inline */
-        justify-content: center; /* Center the boxes horizontally */
-        gap: 1.5rem;
+        display: flex;
+        justify-content: center;
+        gap: 2.5rem; /* Maintain gap similar to large screen */
     }
 
     .box {
-        width: 9rem; /* Keep the width consistent */
-        height: 9.5rem; /* Keep the height consistent */
-        margin: 0 0.75rem; /* Adjust horizontal margin for spacing */
+        width: 12rem; /* Keep the width consistent */
+        height: 11rem; /* Keep the height consistent */
+        margin: 0 1.25rem; /* Adjust horizontal margin for spacing */
     }
 
     .btn {
-        width: 100%;
+        width: auto; /* Allow buttons to expand to their content */
     }
 }
+
+
 
 
 
