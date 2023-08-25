@@ -9,7 +9,7 @@
 
 * Hide Box 1 - Hide Box 3 : button should hide corresponding box while keeping layout the same when clicked
 
-* Hide All : button should hide all boxes, but still keeping layout the same when clicked
+* Hide All : button should hide all boxes, while still keeping layout the same when clicked
 
 * Show All : button should re-show any or all hidden boxes when clicked
 
